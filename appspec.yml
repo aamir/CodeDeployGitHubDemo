@@ -13,6 +13,7 @@ hooks:
       runas: root
   AfterInstall:
     - location: install_virtualenv
+      runas: root
   ApplicationStop:
     - location: scripts/stop_server
       timeout: 300
