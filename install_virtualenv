@@ -2,3 +2,4 @@
 cd /home/ec2-user/test
 make virtualenv
 source env/bin/activate
+python application.py
